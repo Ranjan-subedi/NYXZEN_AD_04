@@ -1,0 +1,110 @@
+
+    *{
+        box-sizing: border-box;
+        margin: none;
+        padding: 0%;
+    }
+    .card{
+        margin: auto;
+        border-radius: 9px;
+        padding: 40px 40px;
+       background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Best-download-hd-backgrounds.jpg);
+        width: 90%;
+        margin-top: 20px;
+        max-width: 470px;
+        text-align: center;
+        box-shadow: 2px 2px 13px black;
+        color: aliceblue;
+
+    }
+    .search{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .search input{
+        border: 0;
+        outline: 0;
+        background-color: rgb(245, 216, 212);
+        color: rgb(8, 111, 155);
+        height: 40px;
+        border-radius: 9px;
+        flex: 1;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+    .search button{
+        border: 0;
+        outline: 0;
+        height: 40px;
+        width: 40px;
+       
+        border-radius: 50%;
+        cursor: pointer
+        ;
+        
+    }
+    .weatherIcon{
+        width: 170px;
+        margin-top: 30px;
+
+    }
+    .weather h1{
+        font-size: 80px;
+        font-weight: 395px;
+    }
+    .weather h2{
+        font-size: 60px;
+        font-weight: 295px;
+    }
+    .details{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 20px;
+        margin-top: 40px;
+        gap: 10%;
+
+    }
+    .col{
+        display: flex;
+        align-items: center;
+        text-align: left;
+         }
+         .col img{
+            width: 40px;
+            margin-right: 22px;
+
+         }
+         .humidity, .wind{
+            font-size: 29px;
+            margin-top: -9px;
+         }
+         @media (max-width:480px) {
+           img {
+                display: none;
+            }
+            .weather{
+                width: 120px;
+            }
+
+         }
+         BODY{
+            text-align: center;
+            margin-top: 100px;
+            color: rgb(19, 76, 183);
+            background-color: aliceblue;
+         }
+         .title{
+            background-color: aquamarine;
+            text-shadow: 2px 2px 3px rgb(22, 112, 208);
+         }
+         footer{
+            background-color: blanchedalmond;
+            height: 60px;
+            padding: 15px;
+            font-size: 22px;
+            margin: 20px auto;
+         }
+
